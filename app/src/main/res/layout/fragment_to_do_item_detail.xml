@@ -3,12 +3,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 tools:context="com.clara.simple_todo_list_with_fragments.ToDoItemDetailFragment"
-                android:background="#DA5800">
+                android:background="#8c2422">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/to_do_detail_text_textview"/>
+        android:id="@+id/to_do_detail_text_textview"
+        android:textColor="@color/textcolor"/>
 
     <TextView
         android:layout_width="wrap_content"
